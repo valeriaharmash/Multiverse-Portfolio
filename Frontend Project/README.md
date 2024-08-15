@@ -26,6 +26,18 @@ The app serves as an entertaining and educational tool, allowing users to challe
 
 [Check out the QuizApp on GitHub](https://github.com/React-Quiz-App/QuizApp)
 
+### Landing Page:
+<img width="1666" alt="Screenshot 2024-08-15 at 12 07 19 PM" src="https://github.com/user-attachments/assets/9df7943d-96f7-44e9-ac12-9bb1487849bc">
+
+### If answered correctly:
+<img width="1658" alt="Screenshot 2024-08-15 at 12 07 51 PM" src="https://github.com/user-attachments/assets/60a2b0a7-a9e8-4131-8908-274c2d3ec477">
+
+### If answered incorrectly:
+<img width="1654" alt="Screenshot 2024-08-15 at 12 08 17 PM" src="https://github.com/user-attachments/assets/11a9b481-950d-40a3-8c02-b695b19999fb">
+
+### Score:
+<img width="1659" alt="Screenshot 2024-08-15 at 12 08 58 PM" src="https://github.com/user-attachments/assets/d0adc3cc-0d59-42b5-974e-fa4f752afff8">
+
 ## Technologies
 - Language: `JavaScript`
 - Runtime:`Node.js`
