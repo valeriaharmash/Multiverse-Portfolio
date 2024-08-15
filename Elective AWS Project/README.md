@@ -24,11 +24,11 @@ The inspiration for this project came from a desire to deepen my understanding a
 
 **A** - The implementation involved several steps:
 
-- Lambda Functions:
+- [Lambda Functions](https://github.com/valeriaharmash/elective_aws/tree/main/lambdas):
 `PublishMessagesFunction`: Publishes messages to an SNS topic.
 `ProcessMessagesFunction`: Processes messages from SQS queues. It reads messages and performs actions based on their type, such as storing them in a database.
 
-- Step Function Definition:
+- [Step Function Definition](https://github.com/valeriaharmash/elective_aws/blob/main/stacks/process-messages-workflow/statemachine/process_messages.asl.json):
 The state machine defined in `asl.json` orchestrates the workflow by specifying tasks and parallel branches:
 `PublishMessages`: Task state that invokes the PublishMessagesFunction.
 `ProcessMessages`: Parallel state with branches for processing notifications and alert messages using the ProcessMessagesFunction.
@@ -36,10 +36,10 @@ The state machine defined in `asl.json` orchestrates the workflow by specifying 
 - IAM Roles:
 Defined IAM roles and policies to provide the necessary permissions for Lambda functions to interact with SNS, SQS, and Secrets Manager.
 
-- CloudFormation Template:
+- [CloudFormation Template](https://github.com/valeriaharmash/elective_aws/blob/main/stacks/process-messages-workflow/template.yml):
 The `template.yml` file defines all resources, including Lambda functions, IAM roles, and Step Function, using AWS SAM (Serverless Application Model).
 
-- Makefile Integration:
+- [Makefile](https://github.com/valeriaharmash/elective_aws/blob/main/Makefile):
 The Makefile is used to streamline the setup, publishing, and deployment processes:
 `Setup`: Automates the creation of S3 buckets and uploading necessary stacks and applications. It includes checks to ensure all required variables are set.
 `Publish`: Manages the publishing of the application to AWS Serverless Application Repository, ensuring the version does not already exist.
@@ -47,4 +47,13 @@ The Makefile is used to streamline the setup, publishing, and deployment process
 `Delete`: Provides a mechanism to delete stacks and handle clean-up.
 
 **R** - The final application integrates AWS services into a complete workflow. The Makefile I created streamlines the setup and deployment processs. It ensures that all necessary components are configured correctly and allows for easy management of the deployment lifecycle. The application demonstrates my ability to work with AWS serverless components and manage complex deployments.
+
+[Check out code for Messaging Workflow on GitHub](https://github.com/valeriaharmash/elective_aws)
+
+#### Data Flow Diagram:
+<img width="1082" alt="Screenshot 2024-08-15 at 1 32 04 PM" src="https://github.com/user-attachments/assets/58dde97f-e2d3-4562-ab92-c345e94924ee">
+
+#### Step Function View from AWS Console:
+<img width="522" alt="Screenshot 2024-08-15 at 1 35 59 PM" src="https://github.com/user-attachments/assets/b8286869-b438-4c28-9ea3-b0f8025d2a4a">
+
 
