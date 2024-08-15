@@ -46,19 +46,6 @@ Financial Team members can process the financial documentation without the need 
 
 ## Competencies
 
-### JF 3.6: Can Implement a RESTful API
-##### Situation:
-I needed to automate the processing of payment files, replacing a manual process that involved multiple teams and was prone to errors.
-##### Actions:
-I implemented a RESTful API using FastAPI, which included:
-- Creating SQLAlchemy models for the target PostgreSQL tables.
-- Developing methods to download, validate, and process payment files.
-- Building an API endpoint to handle file processing and data ingestion.
-##### Results:
-The new API reduced processing time from one hour to seven seconds, enabling the Financial Team to process files independently and efficiently.
-##### Competency Connection:
-This project demonstrated my ability to design and implement a RESTful API that streamlined operations and met user needs.
-
 ### JF 1.5: Can work effectively and contribute appropriately on a team to produce software 
 ##### Situation:
 As an apprentice, my first task was to automate the processing of financial documentation, a project that involved collaborating with the Financial and Support Teams.
@@ -71,3 +58,21 @@ To contribute effectively, I:
 My contributions resulted in a successful deployment of the API, which improved efficiency and reduced the processing time. This helped me quickly integrate into the team, building confidence and trust in my abilities.
 ##### Competency Connection:
 This project showcased my ability to collaborate effectively, contributing meaningfully to team goals while producing software that directly benefited the organization.
+
+### JF 5.1: Knows relevant and up-to-date software testing frameworks and methodologies
+##### Situation:
+This was on-the-job project, there was a strict requirement that test coverage should not fall below 80%.
+
+##### Actions:
+- I chose `Pytest` as the testing framework due to its flexibility, simplicity, and wide array of features suitable for testing complex Python applications.
+Pytest's ability to easily handle both simple and complex test cases made it the ideal choice for achieving the required coverage.
+Designing and Implementing Tests:
+- I used `Pytest fixtures` to create reusable test data and setup functions. This allowed for a clean, modular approach to setting up the test environment.
+- Implemented mocking for external dependencies using `unittest.mock`. This enabled testing of individual components in isolation, ensuring that the tests were focused on the logic rather than external factors.
+- I used `pytest.mark.parametrize` to test various input combinations and edge cases. This significantly reduced code duplication and ensured that a wide range of scenarios were covered with minimal effort.
+
+##### Results:
+Through the use of Pytest, fixtures, mocking, and parametrization, I was able to exceed the 80% coverage requirement, achieving over 95% test coverage.
+
+##### Connection to Project:
+This project showcased my proficiency in using up-to-date testing frameworks like Pytest, along with advanced techniques like mocking, fixtures, and parametrization. By ensuring high test coverage, I contributed to the overall success of the project.
