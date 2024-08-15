@@ -1,4 +1,4 @@
-## Project #1
+<h1>MovieHub API</h1>
 
 Give a high-level overview of the project purpose
 
