@@ -56,4 +56,38 @@ The Makefile is used to streamline the setup, publishing, and deployment process
 #### Step Function View from AWS Console:
 <img width="522" alt="Screenshot 2024-08-15 at 1 35 59 PM" src="https://github.com/user-attachments/assets/b8286869-b438-4c28-9ea3-b0f8025d2a4a">
 
+## Competencies
+### JF 4.3: Is able to build, manage and deploy code into the relevant environment
+##### Situation:
+In this project, I undertook the challenge of building, managing, and deploying a serverless architecture using AWS services. My objective was to design cloud-based workflow that integrated AWS SNS, SQS, and Step Function to efficiently handle message processing and data ingestion. This involved setting up and automating the deployment of Lambda functions, Step Functions, and related resources.
+
+##### Actions:
+- Code Development: I wrote Python code for two Lambda functions, common layer, postgres layer etc.
+- Workflow Orchestration: I designed and implemented the state machine in asl.json, which orchestrated the workflow by defining tasks.
+- Resource Definition: I used AWS SAM to define all necessary resources in the template.yml file, including Lambda functions, IAM roles, and Step Function.
+- Makefile Integration: I created a Makefile to automate various deployment steps:
+    - Setting up S3 buckets and uploading stacks and application files.
+    - Publishing the application to AWS Serverless Application Repository.
+    - Deploying CloudFormation stacks with appropriate parameters for different environments.
+- Deployment: Executed the Makefile to ensure all steps were completed correctly, including environment checks, deployment of resources, and version management.
+
+##### Results:
+The Makefile automated the deployment process, minimizing manual errors and saving time. This automation facilitated rapid iterations and updates, improving development efficiency. Additionally, it enhanced my understanding of AWS services and cloud deployment practices, leading to better management of complex cloud-based workflows.
+
+##### Connection to Project:
+This project directly demonstrates my competency in building, managing, and deploying code into relevant environments. By creating a serverless architecture and automating deployment processes with a Makefile, I showcased my ability to integrate and manage AWS services efficiently.
+
+### JF 6.6: Shows initiative for solving problems within their own remit, being resourceful when faced with a problem to solve
+##### Situation:
+In this project, I needed to deploy a serverless architecture integrating AWS SNS, SQS, and Step Functions. The challenge was to ensure the deployment process was efficient and error-free, given the complexity of managing multiple AWS services and resources.
+
+##### Actions:
+To address this, I created a Makefile to automate the deployment and management of resources. The Makefile included steps for setting up S3 buckets, packaging Lambda functions, deploying CloudFormation stacks, and publishing applications. I also defined checks and validations within the Makefile to ensure all required variables were set and dependencies were correctly configured.
+
+##### Results:
+The implementation of the Makefile reduced manual errors and streamlined the deployment process. It saved significant time by automating repetitive tasks and enabled quicker iterations and updates. This approach improved the overall efficiency of the development workflow and enhanced my ability to manage and deploy complex cloud-based architectures effectively.
+
+##### Connection to Project:
+This competency was demonstrated through the initiative to automate the deployment process in the project. By creating a Makefile to handle complex deployment tasks, I solved the problem of manual errors and inefficiencies, showcasing resourcefulness and problem-solving skills within the context of deploying a serverless architecture with AWS services.
+
 
