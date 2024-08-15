@@ -56,6 +56,13 @@ The Makefile is used to streamline the setup, publishing, and deployment process
 #### Step Function View from AWS Console:
 <img width="522" alt="Screenshot 2024-08-15 at 1 35 59 PM" src="https://github.com/user-attachments/assets/b8286869-b438-4c28-9ea3-b0f8025d2a4a">
 
+## Technologies:
+- Language: `Python`
+- Database: `PostgreSQL`
+- Event-Driven Computing: `AWS Lambda, Step Function, SecretManager, CloudWatch, SNS, SQS`
+- Cloud Services: `AWS Cloud`
+- Deployment Orchestration: `AWS CloudFormation, AWS SAM`
+
 ## Competencies
 ### JF 4.3: Is able to build, manage and deploy code into the relevant environment
 ##### Situation:
