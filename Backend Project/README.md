@@ -1,6 +1,6 @@
 <h1>Automation of Financial Documentation Processing</h1> 
 
-> A FastAPI endpoint hosted on Swagger for processing two distinct types of payment files. It downloads and reads specified payment files, custom methods validate data types and formats of all the necessary fields, check if the total amount of fiscal columns match. It ingests data into both Primary and Historical tables of PostgreSQL DB nad dispatches email notifications depending on the outcome of the processing
+> A FastAPI endpoint hosted on Swagger for processing two distinct types of payment files. It downloads and reads specified payment files, custom methods validate data types and formats of all the necessary fields, check if the total amount of fiscal columns match. It ingests data into both Primary and Historical tables of PostgreSQL DB and dispatches email notifications depending on the outcome of the processing
 
 ## Users:
 Financial Team Members
@@ -11,7 +11,7 @@ Financial Team members can process the financial documentation without the need 
 ## Key Features:
 - Authentication: The API is inaccessible without proper authentication.
 - File Processing: The API can handle two distinct types of payment files, selectable from a dropdown menu.
-- Notification system: mails are sent to designated stakeholders based on the outcome of the processing.
+- Notification system: emails are sent to designated stakeholders based on the outcome of the processing.
 
 ## Personal Contributions:
 
@@ -46,18 +46,28 @@ Financial Team members can process the financial documentation without the need 
 
 ## Competencies
 
-### JF XX.XX
+### JF 3.6: Can Implement a RESTful API
+##### Situation:
+I needed to automate the processing of payment files, replacing a manual process that involved multiple teams and was prone to errors.
+##### Actions:
+I implemented a RESTful API using FastAPI, which included:
+- Creating SQLAlchemy models for the target PostgreSQL tables.
+- Developing methods to download, validate, and process payment files.
+- Building an API endpoint to handle file processing and data ingestion.
+##### Results:
+The new API reduced processing time from one hour to seven seconds, enabling the Financial Team to process files independently and efficiently.
+##### Competency Connection:
+This project demonstrated my ability to design and implement a RESTful API that streamlined operations and met user needs.
 
-- List the full text of the job function first
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal.
-- Emphasize the results of this action for your team or your learning.
-- Connect the competentcy to this project
-
-### JF XX.XX
-
-- List the full text of the job function first
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal.
-- Emphasize the results of this action for your team or your learning.
-- Connect the competentcy to this project
+### JF 1.5: Can work effectively and contribute appropriately on a team to produce software 
+##### Situation:
+As an apprentice, my first task was to automate the processing of financial documentation, a project that involved collaborating with the Financial and Support Teams.
+##### Actions:
+To contribute effectively, I:
+- Engaged with team members to understand the existing process and pain points.
+- Communicated regularly with stakeholders to ensure the API met their needs.
+- Sought feedback throughout development and adjusted the solution based on input.
+##### Results:
+My contributions resulted in a successful deployment of the API, which improved efficiency and reduced the processing time. This helped me quickly integrate into the team, building confidence and trust in my abilities.
+##### Competency Connection:
+This project showcased my ability to collaborate effectively, contributing meaningfully to team goals while producing software that directly benefited the organization.
