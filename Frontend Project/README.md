@@ -48,18 +48,15 @@ The app serves as an entertaining and educational tool, allowing users to challe
 
 ## Competencies
 
-### JF XX.XX
-
-- List the full text of the job function first
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal.
-- Emphasize the results of this action for your team or your learning.
-- Connect the competentcy to this project
-
-### JF XX.XX
-
-- List the full text of the job function first
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal.
-- Emphasize the results of this action for your team or your learning.
-- Connect the competentcy to this project
+### JF 2.5: Can implement a responsive User Interface
+##### Situation:
+While developing the Quiz App, I aimed to create an engaging and accessible experience for users across various devices, including desktops, tablets, and smartphones. A responsive User Interface was crucial to ensure that the app was usable and visually appealing on any screen size.
+##### Actions:
+To achieve this, I took the following steps:
+- Responsive Design: I utilized CSS Flexbox and Grid layout techniques to create a flexible layout that adjusts to different screen sizes.
+- Media Queries: I implemented media queries in the app's CSS to handle specific breakpoints, ensuring the layout, font sizes, and button spacing adapt appropriately on smaller screens.
+- Material-UI Components: I incorporated Material-UI components, which are inherently responsive and provide a consistent design language across devices.
+##### Results:
+As a result of these actions, the Quiz App delivered a smooth and responsive experience across all tested devices. The layout remained intuitive and user-friendly, regardless of screen size. This improved the overall user experience, making the app accessible to a broader audience.
+##### Connection to Project: 
+This project showcased my ability to implement a responsive UI, resulting in a more inclusive and adaptable product that effectively meets user needs across various devices.
