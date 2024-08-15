@@ -48,18 +48,25 @@ The application helps users manage their movie-watching experience by providing 
 
 ## Competencies
 
-### JF XX.XX
+### JF 3.6: Can implement a RESTful API
+##### Situation:
+While working on this project, I developed a movie management platform that required a RESTful API to handle user interactions, including authentication, movie management, comments, and watchlist management. The goal was to create an API that would support a seamless user experience while managing movie data efficiently and securely.
 
-- List the full text of the job function first
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal.
-- Emphasize the results of this action for your team or your learning.
-- Connect the competentcy to this project
+##### Actions:
+- Design and Planning:
+    - Defined the core functionalities needed, such as user authentication, movie management, comments, and watchlist features.
+    - Designed API endpoints for these functionalities, ensuring they met the project requirements.
+- Development:
+    - User Authentication: Implemented endpoints for user sign-up, login, and logout using Flask and SQLAlchemy. Ensured secure password handling through hashing.
+    - Movie Management: Created endpoints to retrieve, rate, and update movies. Added functionality to handle movie ratings dynamically.
+    - Comments: Developed endpoints to add, edit, and delete comments on movies, with proper user-movie associations.
+    - Watchlist Management: Added endpoints to manage the user's watchlist, including adding movies, marking them as watched, and removing them.
+    - Implemented validation and error handling to ensure robust and reliable API interactions.
+- Testing and Refinement:
+     - Tested the API endpoints using Postman to ensure they functioned correctly and handled various edge cases.
 
-### JF XX.XX
+##### Results:  
+Successfully built an interactive movie management application with functional and secure user authentication, movie management, and comment features.
 
-- List the full text of the job function first
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal.
-- Emphasize the results of this action for your team or your learning.
-- Connect the competentcy to this project
+##### Connection to Project:
+The project directly highlighted my ability to design and implement a RESTful API, showcasing skills in developing secure and efficient endpoints for various functionalities. The successful deployment of this API demonstrated my competency in creating scalable web applications using Flask and SQLAlchemy.
